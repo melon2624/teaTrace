@@ -1,0 +1,126 @@
+header {
+	height: 36px;
+	line-height: 1rem;
+    background: linear-gradient(to right, #61bb19 15%, #d6e2ad 100%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+header p{
+	font-family: "微软雅黑";
+	font-weight: 800;
+	color: #fff;
+	margin-left: 40%;
+	margin-top: 12px;
+}
+
+nav {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5rem;
+	line-height: 1rem;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f8f8f8), color-stop(1, #f1f1f1));
+	border-top: 2px #f4f4f4 solid;
+	display: box;
+	display: -webkit-box;
+}
+
+nav a {
+	display: block;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	text-align: center;
+	color: #8a8a8a;
+	line-height: 1.75;
+	font-weight: 550;
+	font-family: "微软雅黑";
+}
+
+.product-information{
+	position: relative;
+	top: 260px;
+	left: 0px;
+}
+.item {
+	width: 100%;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: 600;
+}
+
+.item-tag {
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.item-info {
+	float: left;
+	width:50%;
+	border-radius: 15px;
+	background: rgba(50,205,50,0.8);
+	color: #fff;
+	padding: 5px;
+	margin-top: 15px;
+	text-align: center;
+}
+.refreshtip {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    color: #999;
+}
+.comment{
+	border-style: solid;
+	border-color: lightgrey;
+	border-radius: 3px;
+	border-width: 1px;
+    margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 30px;
+	height: 270px;
+}
+#version p{
+	margin-left: 3%;
+	margin-right: 3%;
+	color: dimgray;
+	padding: 2px;
+	font-family: "微软雅黑";
+	border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #F0F0F0;
+}
+
+#if1{
+	margin-bottom: 50px;
+	width: 100%;
+	height: 240px;
+	background-color: white;
+	
+}
+#if1 img {
+    width: 25%;
+    display: block;
+    float: left;
+}
+.xian {
+       height: 1px; 
+       margin-top: 40px;
+       text-align: center; 
+       border-top: 1px solid #e2e2e2;
+}
+.txt{ 
+     position: relative;
+     top:-18px;
+     background: #fff;
+     display: inline-block;
+}
